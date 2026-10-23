@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(29, 198, 207);
+}
+
+#container{
+    color: aliceblue;
+    min-height: 100vh;
+}
+#button-display{
+    text-align: center;
+    justify-content: center;
+}
+.button{
+    font-size: 30px;
+    margin: 8px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#result{
+    margin: 30px;
+    font-size: bold;
+    border-top: 2px solid white;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.8;
+
+}
